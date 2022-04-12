@@ -37,6 +37,8 @@ int main()
         else
         {
             int verifier = 0;
+
+            // Divisor é 10 caso 1 casa, 100, caso 2 casas...
             int divider = round(pow(10, sub_len));
 
             if (subnum % divider == num % divider)
